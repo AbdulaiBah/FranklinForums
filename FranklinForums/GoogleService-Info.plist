@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>704014895882-3l3dvdouo9nt59khqsb7ai4a1du9noor.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.704014895882-3l3dvdouo9nt59khqsb7ai4a1du9noor</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCya-3QBvWmjKl4gfCQ-pAUc-XooY2m4M4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>704014895882</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Razzaq.FranklinForums</string>
+	<key>PROJECT_ID</key>
+	<string>franklin-forums-2022</string>
+	<key>STORAGE_BUCKET</key>
+	<string>franklin-forums-2022.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:704014895882:ios:fd26ea62feab724c3e48f3</string>
+</dict>
+</plist>
