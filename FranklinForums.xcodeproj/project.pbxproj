@@ -1,0 +1,721 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D28FF08428C38C7100A93F67 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FF08328C38C7100A93F67 /* Tests_iOS.swift */; };
+		D28FF08628C38C7100A93F67 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FF08528C38C7100A93F67 /* Tests_iOSLaunchTests.swift */; };
+		D28FF09028C38C7100A93F67 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FF08F28C38C7100A93F67 /* Tests_macOS.swift */; };
+		D28FF09228C38C7100A93F67 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FF09128C38C7100A93F67 /* Tests_macOSLaunchTests.swift */; };
+		D28FF09328C38C7100A93F67 /* FranklinForums.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D28FF06828C38C6D00A93F67 /* FranklinForums.xcdatamodeld */; };
+		D28FF09428C38C7100A93F67 /* FranklinForums.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D28FF06828C38C6D00A93F67 /* FranklinForums.xcdatamodeld */; };
+		D28FF09528C38C7100A93F67 /* FranklinForumsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FF06A28C38C6D00A93F67 /* FranklinForumsApp.swift */; };
+		D28FF09628C38C7100A93F67 /* FranklinForumsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FF06A28C38C6D00A93F67 /* FranklinForumsApp.swift */; };
+		D28FF09728C38C7100A93F67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FF06B28C38C6D00A93F67 /* ContentView.swift */; };
+		D28FF09828C38C7100A93F67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FF06B28C38C6D00A93F67 /* ContentView.swift */; };
+		D28FF09928C38C7100A93F67 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FF06C28C38C6D00A93F67 /* Persistence.swift */; };
+		D28FF09A28C38C7100A93F67 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = D28FF06C28C38C6D00A93F67 /* Persistence.swift */; };
+		D28FF09B28C38C7100A93F67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28FF06D28C38C7100A93F67 /* Assets.xcassets */; };
+		D28FF09C28C38C7100A93F67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D28FF06D28C38C7100A93F67 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D28FF08028C38C7100A93F67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D28FF06328C38C6D00A93F67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D28FF07128C38C7100A93F67;
+			remoteInfo = "FranklinForums (iOS)";
+		};
+		D28FF08C28C38C7100A93F67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D28FF06328C38C6D00A93F67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D28FF07728C38C7100A93F67;
+			remoteInfo = "FranklinForums (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D28FF06928C38C6D00A93F67 /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		D28FF06A28C38C6D00A93F67 /* FranklinForumsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FranklinForumsApp.swift; sourceTree = "<group>"; };
+		D28FF06B28C38C6D00A93F67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D28FF06C28C38C6D00A93F67 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		D28FF06D28C38C7100A93F67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D28FF07228C38C7100A93F67 /* FranklinForums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FranklinForums.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28FF07828C38C7100A93F67 /* FranklinForums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FranklinForums.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28FF07A28C38C7100A93F67 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		D28FF07F28C38C7100A93F67 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28FF08328C38C7100A93F67 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		D28FF08528C38C7100A93F67 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		D28FF08B28C38C7100A93F67 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28FF08F28C38C7100A93F67 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		D28FF09128C38C7100A93F67 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D28FF06F28C38C7100A93F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28FF07528C38C7100A93F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28FF07C28C38C7100A93F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28FF08828C38C7100A93F67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D28FF06228C38C6D00A93F67 = {
+			isa = PBXGroup;
+			children = (
+				D28FF06728C38C6D00A93F67 /* Shared */,
+				D28FF07928C38C7100A93F67 /* macOS */,
+				D28FF08228C38C7100A93F67 /* Tests iOS */,
+				D28FF08E28C38C7100A93F67 /* Tests macOS */,
+				D28FF07328C38C7100A93F67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D28FF06728C38C6D00A93F67 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				D28FF06A28C38C6D00A93F67 /* FranklinForumsApp.swift */,
+				D28FF06B28C38C6D00A93F67 /* ContentView.swift */,
+				D28FF06C28C38C6D00A93F67 /* Persistence.swift */,
+				D28FF06D28C38C7100A93F67 /* Assets.xcassets */,
+				D28FF06828C38C6D00A93F67 /* FranklinForums.xcdatamodeld */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		D28FF07328C38C7100A93F67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D28FF07228C38C7100A93F67 /* FranklinForums.app */,
+				D28FF07828C38C7100A93F67 /* FranklinForums.app */,
+				D28FF07F28C38C7100A93F67 /* Tests iOS.xctest */,
+				D28FF08B28C38C7100A93F67 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D28FF07928C38C7100A93F67 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				D28FF07A28C38C7100A93F67 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		D28FF08228C38C7100A93F67 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D28FF08328C38C7100A93F67 /* Tests_iOS.swift */,
+				D28FF08528C38C7100A93F67 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		D28FF08E28C38C7100A93F67 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				D28FF08F28C38C7100A93F67 /* Tests_macOS.swift */,
+				D28FF09128C38C7100A93F67 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D28FF07128C38C7100A93F67 /* FranklinForums (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28FF09F28C38C7100A93F67 /* Build configuration list for PBXNativeTarget "FranklinForums (iOS)" */;
+			buildPhases = (
+				D28FF06E28C38C7100A93F67 /* Sources */,
+				D28FF06F28C38C7100A93F67 /* Frameworks */,
+				D28FF07028C38C7100A93F67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FranklinForums (iOS)";
+			productName = "FranklinForums (iOS)";
+			productReference = D28FF07228C38C7100A93F67 /* FranklinForums.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D28FF07728C38C7100A93F67 /* FranklinForums (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28FF0A228C38C7100A93F67 /* Build configuration list for PBXNativeTarget "FranklinForums (macOS)" */;
+			buildPhases = (
+				D28FF07428C38C7100A93F67 /* Sources */,
+				D28FF07528C38C7100A93F67 /* Frameworks */,
+				D28FF07628C38C7100A93F67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FranklinForums (macOS)";
+			productName = "FranklinForums (macOS)";
+			productReference = D28FF07828C38C7100A93F67 /* FranklinForums.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D28FF07E28C38C7100A93F67 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28FF0A528C38C7100A93F67 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				D28FF07B28C38C7100A93F67 /* Sources */,
+				D28FF07C28C38C7100A93F67 /* Frameworks */,
+				D28FF07D28C38C7100A93F67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D28FF08128C38C7100A93F67 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = D28FF07F28C38C7100A93F67 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D28FF08A28C38C7100A93F67 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D28FF0A828C38C7100A93F67 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				D28FF08728C38C7100A93F67 /* Sources */,
+				D28FF08828C38C7100A93F67 /* Frameworks */,
+				D28FF08928C38C7100A93F67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D28FF08D28C38C7100A93F67 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = D28FF08B28C38C7100A93F67 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D28FF06328C38C6D00A93F67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D28FF07128C38C7100A93F67 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D28FF07728C38C7100A93F67 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					D28FF07E28C38C7100A93F67 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D28FF07128C38C7100A93F67;
+					};
+					D28FF08A28C38C7100A93F67 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = D28FF07728C38C7100A93F67;
+					};
+				};
+			};
+			buildConfigurationList = D28FF06628C38C6D00A93F67 /* Build configuration list for PBXProject "FranklinForums" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D28FF06228C38C6D00A93F67;
+			productRefGroup = D28FF07328C38C7100A93F67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D28FF07128C38C7100A93F67 /* FranklinForums (iOS) */,
+				D28FF07728C38C7100A93F67 /* FranklinForums (macOS) */,
+				D28FF07E28C38C7100A93F67 /* Tests iOS */,
+				D28FF08A28C38C7100A93F67 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D28FF07028C38C7100A93F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28FF09B28C38C7100A93F67 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28FF07628C38C7100A93F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28FF09C28C38C7100A93F67 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28FF07D28C38C7100A93F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28FF08928C38C7100A93F67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D28FF06E28C38C7100A93F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28FF09528C38C7100A93F67 /* FranklinForumsApp.swift in Sources */,
+				D28FF09928C38C7100A93F67 /* Persistence.swift in Sources */,
+				D28FF09328C38C7100A93F67 /* FranklinForums.xcdatamodeld in Sources */,
+				D28FF09728C38C7100A93F67 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28FF07428C38C7100A93F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28FF09628C38C7100A93F67 /* FranklinForumsApp.swift in Sources */,
+				D28FF09A28C38C7100A93F67 /* Persistence.swift in Sources */,
+				D28FF09428C38C7100A93F67 /* FranklinForums.xcdatamodeld in Sources */,
+				D28FF09828C38C7100A93F67 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28FF07B28C38C7100A93F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28FF08628C38C7100A93F67 /* Tests_iOSLaunchTests.swift in Sources */,
+				D28FF08428C38C7100A93F67 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D28FF08728C38C7100A93F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28FF09228C38C7100A93F67 /* Tests_macOSLaunchTests.swift in Sources */,
+				D28FF09028C38C7100A93F67 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D28FF08128C38C7100A93F67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D28FF07128C38C7100A93F67 /* FranklinForums (iOS) */;
+			targetProxy = D28FF08028C38C7100A93F67 /* PBXContainerItemProxy */;
+		};
+		D28FF08D28C38C7100A93F67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D28FF07728C38C7100A93F67 /* FranklinForums (macOS) */;
+			targetProxy = D28FF08C28C38C7100A93F67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D28FF09D28C38C7100A93F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D28FF09E28C38C7100A93F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D28FF0A028C38C7100A93F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = project.FranklinForums;
+				PRODUCT_NAME = FranklinForums;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D28FF0A128C38C7100A93F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = project.FranklinForums;
+				PRODUCT_NAME = FranklinForums;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D28FF0A328C38C7100A93F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = project.FranklinForums;
+				PRODUCT_NAME = FranklinForums;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D28FF0A428C38C7100A93F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = project.FranklinForums;
+				PRODUCT_NAME = FranklinForums;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		D28FF0A628C38C7100A93F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "project.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FranklinForums (iOS)";
+			};
+			name = Debug;
+		};
+		D28FF0A728C38C7100A93F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "project.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "FranklinForums (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D28FF0A928C38C7100A93F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "project.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "FranklinForums (macOS)";
+			};
+			name = Debug;
+		};
+		D28FF0AA28C38C7100A93F67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "project.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "FranklinForums (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D28FF06628C38C6D00A93F67 /* Build configuration list for PBXProject "FranklinForums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28FF09D28C38C7100A93F67 /* Debug */,
+				D28FF09E28C38C7100A93F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D28FF09F28C38C7100A93F67 /* Build configuration list for PBXNativeTarget "FranklinForums (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28FF0A028C38C7100A93F67 /* Debug */,
+				D28FF0A128C38C7100A93F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D28FF0A228C38C7100A93F67 /* Build configuration list for PBXNativeTarget "FranklinForums (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28FF0A328C38C7100A93F67 /* Debug */,
+				D28FF0A428C38C7100A93F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D28FF0A528C38C7100A93F67 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28FF0A628C38C7100A93F67 /* Debug */,
+				D28FF0A728C38C7100A93F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D28FF0A828C38C7100A93F67 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D28FF0A928C38C7100A93F67 /* Debug */,
+				D28FF0AA28C38C7100A93F67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D28FF06828C38C6D00A93F67 /* FranklinForums.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D28FF06928C38C6D00A93F67 /* Shared.xcdatamodel */,
+			);
+			currentVersion = D28FF06928C38C6D00A93F67 /* Shared.xcdatamodel */;
+			path = FranklinForums.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D28FF06328C38C6D00A93F67 /* Project object */;
+}
